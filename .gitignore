@@ -1,1 +1,16 @@
 ip_proj*
+*.DS_Store
+ehthumbs.db
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore composer vendor directory
+/vendor
+
+# ignore jekyll build directory
+/_site
